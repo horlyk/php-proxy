@@ -1,10 +1,22 @@
 {
-    "name": "weerdm/php-proxy",
+    "name": "horlyk/php-proxy",
     "description": "Proxy library that forwards requests to the desired url and returns the response.",
     "license": "MIT",
     "authors": [
         {
+            "name": "Jens Segers",
+            "homepage": "https://jenssegers.com"
+        },
+        {
+            "name": "Ota Mares",
+            "email": "o.mares@rebuy.de",
+            "homepage": "http://www.rebuy.de"
+        },
+        {
             "name": "Weerdm"
+        },
+        {
+            "name": "horlyk"
         }
     ],
     "require": {
