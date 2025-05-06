@@ -16,9 +16,9 @@ class GuzzleAdapter implements AdapterInterface
 
     /**
      * Construct a Guzzle based HTTP adapter.
-     * @param Client $client
+     * @param ?Client $client
      */
-    public function __construct(Client $client = null)
+    public function __construct(?Client $client = null)
     {
         $this->client = $client ?: new Client;
     }
